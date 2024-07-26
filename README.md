@@ -58,13 +58,13 @@ sudo ./https_server
 
 This code sets up a basic HTTPS server that:
 
-Initializes OpenSSL
-Creates an SSL context and loads the certificate and key
-Sets up a socket to listen for connections
-Accepts client connections and performs SSL handshakes
-Responds with a simple HTML message
+## Initializes OpenSSL
+1. Creates an SSL context and loads the certificate and key
+2. Sets up a socket to listen for connections
+3. Accepts client connections and performs SSL handshakes
+4. Responds with a simple HTML message
 
-Security Considerations
+## Security Considerations
 This is a basic example for educational purposes. For production use, consider:
 
 Implementing proper error handling and logging
@@ -72,12 +72,11 @@ Using up-to-date SSL/TLS protocols and ciphers
 Regularly updating SSL certificates
 Implementing additional security measures (input validation, rate limiting, etc.)
 
-Contributing
+## Contributing
 Contributions are welcome. Please fork the repository and submit a pull request with your changes.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Acknowledgments
-
+## Acknowledgments
 OpenSSL Project for providing the SSL/TLS toolkit
